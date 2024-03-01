@@ -1,0 +1,10 @@
+{
+  "name": "Infinite-Graft",
+  "version": "1.0.0",
+  "description": "Remembers the recipes for words in a searchable local database.",
+  "main": "main.js",
+  "repository": "git@github.com:reduviidae/Infinite-Graft.git",
+  "author": "your MOTHER",
+  "license": "Creative Commons",
+  "private": null
+}
