@@ -1,15 +1,22 @@
 {
-  "manifest_version": 1,
-  "name": "InfiniteGraft",
+  "manifest_version": 2,
+  "name": "Infinite Graft",
   "version": "1.0",
 
-  "description": "Keeps track of recipes and results for Infinite Craft.",
+  "description": "This extension will remember the recipes for words you create while playing Infinite Craft and store them in a searchable database.",
 
   "content_scripts": [
     {
-      "matches": ["*://neal.fun/infinite-craft*"],
-      "js": ["infiniteGraft.js"]
+      "matches": ["*://neal.fun/infinite-craft*", "*://*.mozilla.org/*"],
+      "js": ["main.js"]
     }
+  ],
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "permissions": [
+    "webRequest"
   ]
 }
-

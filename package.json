@@ -6,5 +6,5 @@
   "repository": "git@github.com:reduviidae/Infinite-Graft.git",
   "author": "your MOTHER",
   "license": "Creative Commons",
-  "private": null
+  "private": false
 }
