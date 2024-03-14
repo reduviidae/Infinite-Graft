@@ -1,0 +1,15 @@
+{
+  "manifest_version": 1,
+  "name": "InfiniteGraft",
+  "version": "1.0",
+
+  "description": "Keeps track of recipes and results for Infinite Craft.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://neal.fun/infinite-craft*"],
+      "js": ["infiniteGraft.js"]
+    }
+  ]
+}
+
